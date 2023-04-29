@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CSE 110 Lbs</title> 
-  </head>
+    <title>CSE 110 Labs</title> 
+    <meta name="author" content="Bingyang Yu"> </head>
   <body>
     <header>
       <div>Lab Plan</div>
     </header>
 
     <main>
-      <h1>Lab Plan Meeting</h1>
+      <h1>Lab <span style="color: aqua;">110</span> Plan Meeting</h1>
 
       <h2>4/27/2023</h2>
       <h2>brainstorming</h2>
 
+      <section>
       <h3>Attendance List</h3>
 
       <ol>
         <li><input type="checkbox">Bingyang Yu</li>
       </ol>
+      </section>
 
+      <hr>
       <h3>Agenda</h3>
       
       <ol>
         <li>What's the next</li>
-        <li>Finish a lab every day</li>
+        <li>Finish a lab <b class="term">every</b> day</li>
       </ol>
+      
 
       <h4>Unfinished Business From Last Meeting</h4>
 
-      <p>what's should I do to catch up this course</p>
+      <p>what's should I do to <em>catch up</em> this course</p>
 
       <h4>New business that need to be talked about</h4>
 
-      <p>nothing</p>
+      <p>nothing 
+        <details>
+          <summary>Watching lectures</summary>
+          <a href="https://www.youtube.com/">YouTube</a>
+        </details>
+      
+      </p>
 
       <h4>any miscellaneous comments / questions / concerns</h4>
-      <p>How long it takes for you to finished Lab 1 </p>
-      <p>When would you wake up </p>
+      <ul>
+        <li><strong> How long</strong> it takes for you to finished Lab 1</li>
+        <li><i>When would you wake up</i></li>
+      </ul>
+       
 
       <h4>Pictures of any diagrams</h4>
 
       <img src="https://users.csc.calpoly.edu/~jdalbey/SWE/Design/STD_HotelReservation.jpg" alt="300">
 
       <br \>
+      <hr>
       <h4>Meeting Video</h4>
-      <video controls width="500" height="500">
+      <video controls width="500" height="300">
         <source src="audio_video/video.mp4" type="video/mp4">
       </video><br>
       
@@ -54,6 +68,54 @@
       </audio>
     </main>
 
-    <footer></footer>
+    <footer>
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!">
+        </div>
+        <fieldset>
+          <legend>Choose your favorite fruit</legend>
+      
+          <input type="radio" id="apple" name="fruit" value="A">
+          <label for="apple">apple</label><br>
+      
+          <input type="radio" id="banana" name="fruit" value="B">
+          <label for="banana">banana</label><br>
+      
+          <input type="radio" id="mango" name="fruit" value="M">
+          <label for="mango">mango</label>
+        </fieldset>
+        <br/>
+        <textarea name="bs" id="b" cols="30" rows="10"></textarea>
+
+        <br/>
+        <label for="fruit-choice">Choose a fruit:</label>
+        <input list="fruits" id="fruit" name="fruit">
+        <datalist id="fruits">
+          <option value="apple">
+          <option value="banana">
+          <option value="mango">
+        </datalist>
+
+        <label for="pet-select">Choose a lab:</label>
+        <select name="labs" id="lab-select">
+            <option value="">--Please choose an option--</option>
+            <option value="lab1">lab1</option>
+            <option value="lab2">lab2</option>
+            <option value="lab3">lab3</option>
+        </select>
+        
+        <br>
+        <button class="fac" type="button">Like!</button>
+      </form>      
+    </footer>
   </body>
 </html>
