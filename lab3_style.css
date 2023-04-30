@@ -115,3 +115,24 @@ audio {
 div[title] {
     color: purple;
 }
+
+
+/*flexbox*/
+.numbers {
+    /* We first create a flex layout context */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1;
+    margin: 1;
+    list-style: none;
+}
+.num {
+    background: rgb(180, 7, 207);
+    padding: 1px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
