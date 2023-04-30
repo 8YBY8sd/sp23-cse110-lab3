@@ -1,4 +1,52 @@
 /* add color for background*/
 body {
-    background-color: aquamarine;
+    background-color:antiquewhite;
+    font-size: 16px;
+    margin-right: 0.5cm;
 }
+
+/* set h1 to be long margin */
+h1 {
+    color: black;
+    background-color: rgb(211, 136, 185);
+    font-size: 1pc;
+    margin-top:0.5cm;
+    margin-left: 0cm;
+    margin-right: 0ch;
+    margin-bottom: 1px;
+}
+
+
+h2 {
+    color: antiquewhite;
+    font-size: 1pt;
+    margin-bottom: 0.5cm;
+}
+
+/* set h3 to be short margin*/
+h3 {
+    color: rgb(14, 10, 236);
+    font-size: 1px;
+    margin:1px, 1px, 2px, 2px
+}
+
+/*set h4 to be Long Padding*/
+h4 {
+    padding-top: 1em;
+    padding-left: 0em;
+    padding-right: auto;
+    padding-bottom: 0.5ch;
+}
+
+
+.src {
+    padding:25px 50px 75px 100px
+}
+
+/*Use Class Selector and Selector List for classes "form-example" and "fac"*/
+.form-example, .fac {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(68, 134, 193);
+}
+
