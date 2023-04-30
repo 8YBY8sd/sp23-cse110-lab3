@@ -3,6 +3,8 @@ body {
     background-color:antiquewhite;
     font-size: 16px;
     margin-right: 0.5cm;
+    text-align: start;
+    font-family: 'Sigmar', cursive;;
 }
 
 /* set h1 to be long margin */
@@ -12,8 +14,9 @@ h1 {
     font-size: 1pc;
     margin-top:0.5cm;
     margin-left: 0cm;
-    margin-right: 0ch;
+    margin-right: 10ch;
     margin-bottom: 1px;
+    max-width:500px
 }
 
 
@@ -21,6 +24,7 @@ h2 {
     color: antiquewhite;
     font-size: 1pt;
     margin-bottom: 0.5cm;
+    display: block;
 }
 
 /* set h3 to be short margin*/
@@ -36,6 +40,7 @@ h4 {
     padding-left: 0em;
     padding-right: auto;
     padding-bottom: 0.5ch;
+    display:flex;
 }
 
 
@@ -43,11 +48,70 @@ h4 {
     padding:25px 50px 75px 100px
 }
 
-/*Use Class Selector and Selector List for classes "form-example" and "fac"*/
-.form-example, .fac {
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(68, 134, 193);
-    width: 400px;
+/*video*/
+video {
+    position: sticky;top: 20px;
 }
 
+
+/*Use Class Selector and Selector List for classes "form-example" and "fac"*/
+.form-example, .fac {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(68, 134, 193);
+    border-radius: 10px;
+    width: 400px;
+    text-decoration: underline overline #FF3028;
+    display: inline-block;
+    position: static;
+}
+
+/*make "like" button to be Pseudo-classes*/
+button:hover {
+    color: rgb(230, 18, 11);
+}
+  
+/*make "li" to be active, so when select attendance's name, it will turn to red*/
+li:active{
+    color:hsl(40, 80%, 90%)
+}
+
+/* "p" and "ol" are flex*/
+p + ol {
+    display:flex;
+}
+
+/* let video and audio are grid*/
+audio {
+    display: grid;
+    margin: 3vw, 2vh, 3lh;
+}
+
+
+ /* make your website friendly for multiple devices */
+ @media (width: 500px) {
+    body {
+      font-size: auto;
+    }
+ }
+
+/* let label's margin to be auto*/
+ label {
+    margin: auto;
+    min-width: none;
+    height: 1cm;
+}
+  
+*#redapple {
+    color: #FF3028;
+}
+
+
+/*CSS selectors*/
+#email {
+    background: #b0580a;
+}
+
+div[title] {
+    color: purple;
+}
