@@ -8,5 +8,13 @@ assignees: ''
 
 ---
 
-#What changes you made:
-#Why did you make these changes:
+# Username:
+# Date: 
+
+## What's the issue:
+Description:
+
+## Where is that:
+### file:
+### Lines:
+Please include a screenshot if you can:
